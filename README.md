@@ -8,6 +8,8 @@ It alters both the weighting parameters and structures of networks, attempting t
 ## Implementation
 Our approach is to apply the algorithm using NEAT Python module in order to train it to play Flappy Bird. Our code uses search and optimise technique called genetic algorithm which creates a particular number of random configurations. The best configuration of them is used to create the next generation of neural networks.As we repeat the process, with time, we observe that the performance gets better.
 
+![pygame-window-2020-07-06-14-21-4](https://user-images.githubusercontent.com/49936316/86920530-99bc4700-c132-11ea-8601-01f0dfaf8cd9.gif)
+
 ## Instructions
 Run flappy_bird.py and watch Neat Algorithm start training itself to play the game of flappy bird.
 
